@@ -1,10 +1,14 @@
 import ArrowRight from "@/assets/arrow-right.svg";
+import { Navbar } from "./Navbar";
 
 export const Header = () => {
   return (
-    <header>
+    <header className="sticky top-0">
       {/* banner */}
-      <div className=" bg-black text-white text-sm flex justify-center items-center py-3">
+      <div className=" bg-black text-white gap-3 text-sm flex justify-center items-center py-3">
+        <p className=" text-white/60 hidden md:block">
+          Streamline your workflow and boost your productivity
+        </p>
         <div className="flex gap-1  items-center">
           <p>Get started for free</p>
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
@@ -12,7 +16,7 @@ export const Header = () => {
       </div>
 
       {/* Navbar */}
-      <div>navbar</div>
+      <Navbar />
     </header>
   );
 };
