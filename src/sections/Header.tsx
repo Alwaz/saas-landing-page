@@ -3,7 +3,7 @@ import { Navbar } from "./Navbar";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0">
+    <header className="sticky z-20 top-0 backdrop-blur-sm">
       {/* banner */}
       <div className=" bg-black text-white gap-3 text-sm flex justify-center items-center py-3">
         <p className=" text-white/60 hidden md:block">

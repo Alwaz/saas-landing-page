@@ -15,10 +15,7 @@ export const Navbar = () => {
           <nav className="hidden md:flex text-black/60 gap-6 items-center">
             {navLinks.map(({ id, link, title, isButton }) =>
               isButton ? (
-                <button
-                  key={id}
-                  className=" bg-black text-white px-4 py-2 rounded-lg tracking-tight font-medium inline-flex justify-center"
-                >
+                <button key={id} className="btn btn-primary">
                   {title}
                 </button>
               ) : (
