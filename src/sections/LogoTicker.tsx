@@ -1,5 +1,5 @@
 "use client";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import AcmeLogo from "@/assets/logo-acme.png";
 import QuantumLogo from "@/assets/logo-quantum.png";
 import EchoLogo from "@/assets/logo-echo.png";
